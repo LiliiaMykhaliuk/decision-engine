@@ -1,0 +1,2 @@
+[tool.ruff]
+exclude = ["services/gateway-api/alembic"]
