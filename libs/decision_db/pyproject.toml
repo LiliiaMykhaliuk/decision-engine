@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decision_db"
+version = "0.1.0"
+description = "Shared database models and session utilities"
+
+[tool.setuptools.packages.find]
+where = ["."]
