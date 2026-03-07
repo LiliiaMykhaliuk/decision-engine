@@ -18,8 +18,8 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
-from app.db.base import Base
-from app.domain import models  # ensures models are imported
+from libs.decision_db.models import Base
+from libs.decision_db import models  # ensures models are imported
 
 target_metadata = Base.metadata
 

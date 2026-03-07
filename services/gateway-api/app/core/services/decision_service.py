@@ -7,7 +7,7 @@ from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.orm import Session
 
 from app.domain.exceptions import IdempotencyConflict
-from app.domain.models import Decision, DecisionTransition, OutboxEvent
+from libs.decision_db.models import Decision, DecisionTransition, OutboxEvent
 
 
 def create_or_get_decision(
